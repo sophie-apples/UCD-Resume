@@ -21,6 +21,29 @@
     background-color: #45494c;
 }
 
+/*----------------Special paddings/margins/text----------------*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /*----------------Heading----------------*/
 header {
     margin: 0;
@@ -111,4 +134,56 @@ header {
 .hvr-sweep-to-top:before {
     background-color: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+/*----------------Footer----------------*/
+
+footer {
+    background-color:  #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin:0;
+}
+
+.cv-pdf i {
+    font-size:18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    -o-transition: all 0.35s;
+}
+
+.cv-pdf i:hover {
+    color: #fa983a;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height:7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    -o-transition: all 0.35s;
+}
+
+.social-links li a i:hover {
+    background: #fa983a;
+}
+
+#footer-details {
+    padding: 20px;
 }
