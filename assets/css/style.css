@@ -6,7 +6,7 @@
 }
 
 .ui-menu-color-home{
-    background-color: #fa983a;
+    background-color: #e08125;
 }
 
 .ui-menu-color-resume{
@@ -18,7 +18,7 @@
 }
 
 .ui-menu-color-download{
-    background-color: #45494c;
+    background-color: #525252;
 }
 
 /*----------------Special paddings/margins/text----------------*/
@@ -157,7 +157,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #fa983a;
+    color: #e08125;
 }
 
 .social-links {
@@ -181,7 +181,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #fa983a;
+    background: #e08125;
 }
 
 #footer-details {
